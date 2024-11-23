@@ -29,10 +29,25 @@
         </form>
     </main>
 
+
+    <div id="errorModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+    
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <p id="successMessage"></p>
+        </div>
+    </div>
     <footer>
         <p>&copy; 2023 My Blog. All rights reserved.</p>
     </footer>
 
-
+    <script type="module" src="firebaseapp.js"></script>
+    <script type="module" src="auth.js"></script>
 </body>
 </html>
